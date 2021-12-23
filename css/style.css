@@ -1,0 +1,50 @@
+html {
+    font-size: 10px; /*setting 10px for easire rem calc - ex. 1.5rem = 15px etc*/
+}
+
+body {
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+}
+
+#main {
+    background-color: #2d2d2d;
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+
+#img-div {
+    background: #5c5c5c;
+    padding: 10px;
+    margin: 20;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-height: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+  }
